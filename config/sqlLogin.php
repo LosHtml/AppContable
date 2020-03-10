@@ -2,11 +2,11 @@
 <?php
 
 session_start();
-	require("Conexion.php");
+	require("conexion.php");
 
 	$username=$_POST['usuario'];
 	$pass=$_POST['pass'];
-	$email=$_POST['email']
+	
 
 
 	$sql2=mysqli_query($mysqli,"SELECT * FROM login WHERE usuario='$username'");
