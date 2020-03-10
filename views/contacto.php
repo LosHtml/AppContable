@@ -24,10 +24,10 @@
 	
 					<ul>
 						<li><a href="index.php">Inicio</a></li>
-						<li><a href="  .php">""</a></li>
-						<li><a href="restaurantes.php">""</a></li>
-						<li><a href="contacto.php">"</a></li>
-						<li><a href="desconectar.php">>Salir</a></li>
+						<li><a href="  ">""</a></li>
+						<li><a href="">""</a></li>
+						<li><a href="">"</a></li>
+						<li><a href="../config/desconexion.php">>Salir</a></li>
 					</ul>	
 			
 	</nav>
@@ -68,9 +68,9 @@
 							<div class="col-md-12">
 								
 								<select name="tipo" id="tipo" class="" required="">
-									<option value="Sugerencia">Sugerencia</option>
-									<option value="Reclamo">Reclamo/queja</option>
-									<option value="Otro">Otro</option>
+									<option value="sugerencia">Sugerencia</option>
+									<option value="">Reclamo/queja</option>
+									<option value="">Otro</option>
 
 							</div>
 							
@@ -83,6 +83,7 @@
 								<textarea name="mensaje" id="mensaje" cols="30" rows="10" class="form-control" placeholder="Su Mensaje" required=""></textarea>
 							</div>
 						</div>
+						
 						<div class="form-group">
 							<input type="submit" value="Enviar Mensaje" class="btn btn-primary">
 						</div>
