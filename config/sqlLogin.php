@@ -31,19 +31,18 @@ session_start();
 			$_SESSION['id']=$f['id'];
 			$_SESSION['usuario']=$f['usuario'];
 			$_SESSION['rol']=$f['rol'];
-			echo '<script>alert("BIENVENIDO User")</script> ';
+			
 			echo "<script>location.href='../views/index.php'</script>";
 			/*
 			header("Location: index.html");
 			*/
 		}else{
 			echo '<script>alert("CONTRASEÑA INCORRECTA")</script> ';
-		
 			echo "<script>location.href='index.php'</script>";
 		}
 	}else{
 		
-		echo '<script>alert("ESTE USUARIO NO EXISTE, POR FAVOR REGISTRESE")</script> ';
+		echo '<script>alert("ESTE USUARIO NO EXISTE, CONTACTE CON UN ADMINISTRADOR")</script> ';
 		
 		
 

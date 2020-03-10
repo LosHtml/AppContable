@@ -2,7 +2,7 @@
 <html lang="es">
 <head>
   <!-- Cabeza e incio del proyecto -->
-    <title>"Nombre del proyecto"</title>
+    <title>Contable</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- Tipo de imagen de fondo si es jpg o png especificar y luego si subirla en la ubicación-->
