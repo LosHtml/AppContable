@@ -37,7 +37,7 @@
           <h4 class="text-center all-tittles" style="margin-bottom: 60px;"><font size="6" face="Algerian">INICIA SESIÓN</font></h4>
        </p>
              <!-- Conexión a la base de datos-->
-             <form action="Conexion1.php" method="POST">
+             <form action="config\sqlLogin.php" method="POST">
 
             <div class="group-material-login">
               <!-- Si se fijan en conexión1.php se darán cuenta que name="Usuario" y name "pass" Son los
