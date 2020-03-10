@@ -17,7 +17,7 @@
 <body class="full-cover-background" style="background-image:url(     );">
     <div class="form-container">
         <p class="text-center" style="margin-top: 40px;">
-          <h4 class="text-center all-tittles" style="margin-bottom: 60px;"><font size="6" face="Algerian">INICIA SESIÓN</font></h4>
+          <h4 class="text-center all-tittles" style="margin-bottom: 60px;"> <h4>INICIA SESIÓN</h4>
        </p>
              <!-- Conexión a la base de datos-->
              <form action="config\sqlLogin.php" method="POST">
