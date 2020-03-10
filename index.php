@@ -42,7 +42,7 @@
             <div class="group-material-login">
               <!-- Si se fijan en conexión1.php se darán cuenta que name="Usuario" y name "pass" Son los
               que definimos al usarlos para invocarlos -->
-              <input type="text" class="material-login-control" name="usuario" name="email" required="" maxlength="99">
+              <input type="text" class="material-login-control" name="usuario" required="" maxlength="99">
               <span class="highlight-login"></span>
               <span class="bar-login"></span>
               <label><i class=""></i> &nbsp; Usuario</label>
