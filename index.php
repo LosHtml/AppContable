@@ -39,7 +39,8 @@
             <br>
             <br>
               
-            <button class="btn-login" type="submit"><font face="Showcard Gothic" color="00FFFB">Iniciar<i class=""></i></form></button>      
+            <button class="btn-login" type="submit">Iniciar Sesion</button>
+            </form>      
         
             
           </a>
