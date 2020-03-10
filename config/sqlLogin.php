@@ -9,9 +9,9 @@ session_start();
 	
 
 
-	$sql2=mysqli_query($mysqli,"SELECT * FROM login WHERE usuario='$username'");
+	$sql2=mysqli_query($mysqli,"SELECT * FROM login WHERE usuario='$username' OR email='$username'");
 	if($f2=mysqli_fetch_assoc($sql2)){
-		if($pass==$f2['pass2']){
+		if($pass==$f2['pass'] && $f2['usuario_t'] === '2'){
 			$_SESSION['id']=$f2['id'];
 			$_SESSION['usuario']=$f2['usuario'];
 			$_SESSION['rol']=$f2['rol'];
@@ -23,24 +23,11 @@ session_start();
 	
 	}
 
-	$sql2=mysqli_query($mysqli,"SELECT * FROM login WHERE email='$email'");
-	if($f2=mysqli_fetch_assoc($sql2)){
-		if($pass==$f2['pass2']){
-			$_SESSION['id']=$f2['id'];
-			$_SESSION['email']=$f2['email'];
-			$_SESSION['rol']=$f2['rol'];
-
-			echo '<script>alert("BIENVENIDO ADMINISTRADOR")</script> ';
-			echo "<script>location.href='index.html'</script>";
-		
-		}
-	
-	}
 
 
-	$sql=mysqli_query($mysqli,"SELECT * FROM login WHERE usuario='$username'");
+	$sql=mysqli_query($mysqli,"SELECT * FROM login WHERE usuario='$username' OR email='$username'");
 	if($f=mysqli_fetch_assoc($sql)){
-		if($pass==$f['pass']){
+		if($pass==$f['pass'] && $f2['usuario_t'] === '1'){
 			$_SESSION['id']=$f['id'];
 			$_SESSION['usuario']=$f['usuario'];
 			$_SESSION['rol']=$f['rol'];
