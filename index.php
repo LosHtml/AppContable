@@ -1,19 +1,11 @@
 <!DOCTYPE html>
-<html lang="es">
-
+<html lang="en">
 <head>
-    <!-- Cabeza e incio del proyecto -->
-    <title>"Nombre del proyecto"</title>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- Tipo de imagen de fondo si es jpg o png especificar y luego si subirla en la ubicación-->
-    <link rel="icon" type="image/png" href="   " />
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="Shortcut Icon" type="image/x-icon" href=" " />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
 </head>
-
-<!-- Imagen de fondo del proyecto también buscar y especificar ruta-->
-
+<body>
 <body class="full-cover-background" style="background-image:url(     );">
     <div class="form-container">
         <p class="text-center" style="margin-top: 40px;">
@@ -49,5 +41,4 @@
         </a>
     </div>
 </body>
-
 </html>
