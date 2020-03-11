@@ -4,15 +4,15 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Document</title>
-        <script src="../public/js/jquery-3.2.1.min.js"></script>
+
         <!-- CSS MILLIGRAM -->
         <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Roboto:300,300italic,700,700italic">
         <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.css">
         <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/milligram/1.3.0/milligram.css">
         <!-- END CSS -->
-        <link rel="stylesheet" href="/public/css/client.view.css">
+        <link rel="stylesheet" href="../public/css/client.view.css">
     </head>
-    <body">
+    <body>
         <div class="container-all">
         <div class="container-loader" style="position: absolute;background:#606c76;">
             <div class="sk-cube-grid">
@@ -39,12 +39,8 @@
             <em>Todos los derechos reservados &copy; 2020</em>
         </footer>
     </div>
-        <script>
-            $(window).on("load", function() {
-                setTimeout(function(){
-                    $(".container-loader").fadeOut();
-                },1000);
-            });
-        </script>
+    <script src="../public/js/jquery-3.2.1.min.js"></script>
+    <script src="../public/js/main.js"></script>
+   
     </body>
 </html>
