@@ -17,13 +17,13 @@
     <!-- Imagen de fondo del proyecto también buscar y especificar ruta-->
     <body>
         <div class="container">
-            <form action="" class="login-form">
+            <form action="config/sqlLogin.php" method="POST" autocomplete="off" class="login-form">
                 <img class="login-logo" src="public/img/logo.png" alt="" width="100">
                 <fieldset>
                     <label for="nameField">Usuario</label>
-                    <input type="text" placeholder="Usuario o @email" id="nameField">
+                    <input type="text" name="usuario" placeholder="Usuario o @email" id="nameField">
                     <label for="passField">Contraseña</label>
-                    <input type="password" placeholder="************" id="passField">
+                    <input type="password" name="pass" placeholder="************" id="passField">
                     <input type="submit" class="button-primary" value="Iniciar Sesion">
                 </fieldset>
 
