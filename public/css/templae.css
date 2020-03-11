@@ -1,0 +1,93 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+.container-all {
+    height: 100%;
+    background: #f6f6f6;
+}
+
+/* ESTILOS DE NAVEGACION */
+
+.nav {
+    width: 100%;
+    height: 70px;
+    background: linear-gradient(to right, #e53935, #e35d5b);
+}
+
+.nav-left , .nav-right {
+    float:left;
+    width: 50%;
+}
+
+
+/* NAV LEFT */
+.nav-left {
+    width: 250px;
+    height: 70px;
+}
+
+.nav-left h3 {
+    text-decoration: none;
+    color: white;
+}
+
+.logo {
+    width: 30px;
+    float: left;
+    filter: brightness(0) invert(1);
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.nav-left h3, .logo {
+    padding-top: 18px;
+}
+
+
+/* NAV RIGHT */
+
+.nav-right{
+    float: right;
+}
+
+.nav-right ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    float: right;
+}
+
+.nav-right li {
+    float: left;
+    margin-right: 10px;
+}
+
+.nav-right li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 0px 10px;
+    margin-top: 25px;
+    text-decoration: none;
+}
+
+.nav-right li a:hover {
+    color: #c6c6c6;
+}
+
+/* ESTILOS DE LA APP */
+
+.app-area {
+    width: 700px;
+    height: 700px;
+    margin: 0 auto;
+    padding: 10px;
+    position: relative;
+    margin-top: 70px;
+    background: #fff;
+}
+
+
