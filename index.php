@@ -17,7 +17,9 @@
     <!-- Imagen de fondo del proyecto también buscar y especificar ruta-->
     <body>
         <div class="container">
-            <form action="config/sqlLogin.php" method="POST" autocomplete="off" class="login-form">
+
+        <div class="form-content">
+        <form action="config/sqlLogin.php" method="POST" autocomplete="off" class="login-form">
                 <img class="login-logo" src="public/img/logo.png" alt="" width="100">
                 <fieldset>
                     <label for="nameField">Usuario</label>
@@ -30,6 +32,7 @@
                     <p style="font-size: 13px;text-align: center;"><em>Todos los derechos reservados &copy; 2020</em></p>
 
             </form>
+        </div>
         </div>
     </body>
     </html>

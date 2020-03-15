@@ -7,13 +7,18 @@ body{
  
 }
 
+.form-content {
+    width: 100%;
+    margin: auto;
+    background: white;
+}
+
 .login-form {
 
-    width: 40%;
+    width: 100%;
     margin: auto;
     margin-top: 20px;
     padding: 20px;
-    background: white;
 }
 .login-logo {
     padding: 10px;
@@ -25,3 +30,9 @@ body{
 input[type=submit] {
     background: linear-gradient(to right, #e53935, #e35d5b); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
+
+@media (min-width: 600px) {
+    .form-content {
+        width: 50%;
+    }
+  }
